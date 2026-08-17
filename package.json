@@ -1,0 +1,22 @@
+{
+  "name": "1minai-Image-Generator",
+  "version": "1.0.0",
+  "description": "Multi-threaded image generator using 1min.ai API",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev": "tsx index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.9",
+    "p-limit": "3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/node-fetch": "^2.6.13",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}

@@ -211,7 +211,8 @@ Output ONLY the prompts, one per line. Do not number them. Do not include quotes
         }
 
         addLog(`[${i+1}/${lines.length}] Fetching image...`);
-        const imgRes = await fetch(fileUrl);
+        const proxyUrl = `/api/images?url=${encodeURIComponent(fileUrl)}`;
+        const imgRes = await fetch(proxyUrl);
         const blob = await imgRes.blob();
         const filename = `image_${i+1}_${Date.now()}.${outputFormat}`;
 

@@ -21,7 +21,7 @@ import {
 const API_URL = "https://api.1min.ai/api/features";
 const API_KEY = process.env.API_KEY;
 const PROMPTS_FILE = "prompts.txt";
-const CONCURRENCY_LIMIT = 3;
+const CONCURRENCY_LIMIT = 10;
 
 const limit = pLimit(CONCURRENCY_LIMIT);
 

@@ -1,5 +1,4 @@
 # 1min.ai Image Generator & Upscaler
-# 1min.ai Image Bulk Generator
 
 A multi-threaded, robust command-line script for interacting with 1min.ai's image generation and upscaling APIs. Designed to handle bulk-processing asynchronously via a `prompts.txt` file and safely organizes generated images into structured directories.
 A modern, fast, and secure React interface for interacting with 1min.ai's image generation and upscaling APIs. Designed to handle bulk-processing asynchronously via pasting prompts or uploading a `.txt` file.

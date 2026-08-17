@@ -28,7 +28,7 @@ A multi-threaded, robust command-line script for interacting with 1min.ai's imag
 
 ## Usage
 
-You can run the script by passing the target algorithm name. You can use either the system internal name or the Clean Human Name.
+You can run the script by passing the target algorithm name. You can use either the system internal name or the Clean Human Name. Have prompts.txt with the image prompts for each image line separated. 
 
 **Basic Image Generation:**
 ```bash
